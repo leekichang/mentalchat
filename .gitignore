@@ -74,6 +74,3 @@ Thumbs.db
 /.tmp_pip/
 /cache_full/
 /cache_test/
-/outputs/
-/outputs_full/
-/outputs_test/
