@@ -77,6 +77,22 @@ Cache outputs (under `--cache-dir`):
 - `embeddings_<hash>.json` (cache metadata)
 - `gensim-data/` (downloaded pretrained embedding resources)
 
+## Visualization Preview
+
+Examples below use images generated under `outputs_full/`.
+
+### TF-IDF Clusters (t-SNE)
+
+![TF-IDF t-SNE](outputs_full/cluster_scatter_tfidf_tsne.png)
+
+### TF-IDF Clusters (UMAP)
+
+![TF-IDF UMAP](outputs_full/cluster_scatter_tfidf_umap.png)
+
+### Embedding Clusters (UMAP)
+
+![Embedding UMAP](outputs_full/cluster_scatter_embed_umap.png)
+
 ## Progress Monitoring
 
 The script uses `tqdm` progress bars for:
